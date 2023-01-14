@@ -20,7 +20,6 @@
    width: min(100%, 450px);
    background-color: var(--CARD-BGCOLOR);
    color: var(--TEXT-COLOR);
-   margin: var(--MARGIN);
    border-radius: var(--CARD-BORDER-RADIUS);
 }
 
