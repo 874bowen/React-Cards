@@ -1,6 +1,6 @@
 import React from "react";
 import "./Card.css";
-import CardImg1 from "../assets/card_1.jpg";
+import CardImg1 from "../assets/card3.jpg";
 import "font-awesome/css/font-awesome.css"
 
 const Card = () => {
