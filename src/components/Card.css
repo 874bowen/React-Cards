@@ -44,16 +44,11 @@
 
 .card__btn {
    font-size: inherit;
-   width: 40%;
+   width: 100%;
    padding: var(--BUTTON-PADDING);
    border-radius: 10px;
 }
 
-.card__btns {
-   display: flex;
-   flex-flow: row nowrap;
-   justify-content: space-between;
-}
 
 .card__btn-email {
    background-color: var(--EMAIL-BTNCOLOR);
@@ -91,12 +86,7 @@
    align-items: center;
 }
 
-.fa-linkedin {
-   background-color: var(--CARD-P-COLOR);
-   color: var(--LINKEDIN-BTNCOLOR);
-   padding: 0.1em;
-   /* font-size: medium; */
-}
+
 
 .card__footer-div .fa-brands {
    color: #918E9B;

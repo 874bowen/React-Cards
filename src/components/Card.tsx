@@ -14,11 +14,10 @@ const Card = () => {
 			</div>
 
 			<div className="card__info">
-				<div className="card__btns">
+				<div>
 					<button className="card__btn card__btn-email">
                <i className="fa-solid fa-envelope"></i>{"  "}Email
 					</button>
-					<button className="card__btn card__btn-linkedin"><i className="fa-brands fa-linkedin"></i>{"  "}LinkedIn</button>
 				</div>
 
 				<div className="card__content">
@@ -43,6 +42,7 @@ const Card = () => {
 					<p><i className="fa-brands fa-square-facebook"></i></p>
 					<p><i className="fa-brands fa-square-instagram"></i></p>
 					<p><i className="fa-brands fa-square-github"></i></p>
+               <p><i className="fa-brands fa-linkedin"></i></p>
 				</div>
 			</footer>
 		</div>
