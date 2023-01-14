@@ -1,0 +1,106 @@
+/* || VARIABLES */
+:root {
+   /* colors */
+   --CARD-BGCOLOR: #1E1F26;
+   --CARD-FOOTER-BGCOLOR: #161619;
+   --TEXT-COLOR: #FFFFFF;
+   --CARD-P-COLOR: #F5F5F5;
+   --LINKEDIN-BTNCOLOR: #5093E2;
+   --EMAIL-BTNCOLOR: #F5F5F5;
+   --DEV-ROLE-COLOR: #F3BF99;
+
+   --BUTTON-PADDING: 0.5em;
+   --MARGIN: 2rem;
+   --CARD-BORDER-RADIUS: 25px;
+}
+
+
+/* GENERAL CLASSES */
+.card {
+   width: min(100%, 450px);
+   background-color: var(--CARD-BGCOLOR);
+   color: var(--TEXT-COLOR);
+   margin: var(--MARGIN);
+   border-radius: var(--CARD-BORDER-RADIUS);
+}
+
+.card__img {
+   border-top-left-radius: var(--CARD-BORDER-RADIUS);
+   border-top-right-radius: var(--CARD-BORDER-RADIUS);
+}
+
+.card__intro .card__web {
+   font-size: medium;
+   padding-top: 20px;
+   padding-bottom: 20px;
+}
+
+.card__dev-role {
+   color: var(--DEV-ROLE-COLOR);
+}
+
+.card__info {
+   padding: 0 var(--MARGIN);
+}
+
+.card__btn {
+   font-size: inherit;
+   width: 40%;
+   padding: var(--BUTTON-PADDING);
+   border-radius: 10px;
+}
+
+.card__btns {
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: space-between;
+}
+
+.card__btn-email {
+   background-color: var(--EMAIL-BTNCOLOR);
+}
+
+.card__btn-linkedin {
+   background-color: var(--LINKEDIN-BTNCOLOR);
+   color: var(--TEXT-COLOR);
+}
+
+.card__content {
+   padding-bottom: var(--MARGIN);
+}
+
+.card__h3 {
+   padding: 1.5rem 0;
+}
+
+.card__p {
+   color: var(--CARD-P-COLOR);
+   font-size: medium;
+}
+
+.card__footer {
+   background-color: var(--CARD-FOOTER-BGCOLOR);
+   border-bottom-left-radius: var(--CARD-BORDER-RADIUS);
+   border-bottom-right-radius: var(--CARD-BORDER-RADIUS);
+}
+
+.card__footer-div {
+   height: 80px;
+   display: flex;
+   flex-flow: row nowrap;
+   justify-content: space-evenly;
+   align-items: center;
+}
+
+.fa-linkedin {
+   background-color: var(--CARD-P-COLOR);
+   color: var(--LINKEDIN-BTNCOLOR);
+   padding: 0.1em;
+   /* font-size: medium; */
+}
+
+.card__footer-div .fa-brands {
+   color: #918E9B;
+   font-size: xx-large;
+}
+/* || MEDIA QUERIES */
